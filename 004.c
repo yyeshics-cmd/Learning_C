@@ -23,5 +23,25 @@ int main(){
     char myText[] = "Hello";
     printf("\n%s\n", myText);
 
+    float myNum = 5.75;
+    printf("%f\n", myNum);
+    printf("%.1f\n", myNum);
+
+    double myNum2 = 19.99;
+    printf("%lf\n", myNum2);
+
+    int f1 = 35e3;
+    printf("%d\n", f1);
+
+    int myInt;
+    float myFloat;
+    double myDouble;
+    char myChar;
+
+    printf("\n%zu", sizeof(myInt));
+    printf("\n%zu", sizeof(myFloat));
+    printf("\n%zu", sizeof(myDouble));
+    printf("\n%zu", sizeof(myChar));
+
     return 0;
 }
